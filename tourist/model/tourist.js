@@ -15,7 +15,7 @@ const touristSchema = new mongoose.Schema({
 
     phoneNumber: {
         type: Number,
-        require:[true, "please enter phone Number"],
+        require:[true, "please enter phone !"],
         unique: true,
         trim: true
     },

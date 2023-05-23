@@ -16,7 +16,7 @@ const generateRefreshToken = (payload) =>{
 }
 
 const generateActiveToken = (payload) =>{
-    return jwt.sign(payload, process.env.ACTIVE_TOKEN, {expiresIn: "12h"} )
+    return jwt.sign(payload, process.env.ACTIVE_TOKEN, {expiresIn: "13h"} )
 }
 // jwt json web token
 // active token: a user to verify there email b4 saving their detail
