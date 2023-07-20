@@ -1,3 +1,4 @@
+#const nodemailer = require("nodemailer")
 const nodemailer = require("nodemailer")
 
 
@@ -15,10 +16,10 @@ const sendEmail = async (email, message, res) =>{
     let mailDetails = {
         from: `${process.env.MY_EMAIL}`,
         to: email,
-        subject: `MAIL FROM PJAZZHUB`,
+        subject: `MAIL FROM Smarthub`,
         html: `
             <div>
-               <h3>Thank you for choosing PjazzHub</h3>
+               <h3>Thank you for choosing Smarthub</h3>
 
                <p>${message}</p>
 
