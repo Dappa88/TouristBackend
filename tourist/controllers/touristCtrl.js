@@ -9,7 +9,7 @@ const touristsCtrl = {
             const tourist = await Tourists.findOne({email})
         
             if(tourist)
-                return res.status(404).json({msg: "Tourist already exist!"})
+                return res.status(404).json({msg: "Tourist already exist"})
         
             const newTourist = new Tourists({name, email, phoneNumber, state, address, nextOfKins, NextOfKincontacts} )
          
