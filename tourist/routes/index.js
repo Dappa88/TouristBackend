@@ -1,6 +1,8 @@
+const authRouth = require("./authRouth")
+
 const touristsRoute = require ("./toursitsRoute")
 
-const authRouth = require("./authRouth")
+
 
 
 const routes =[
