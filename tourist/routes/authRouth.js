@@ -4,8 +4,8 @@ const auth = require("../controllers/autCtrl")
 const router = express.Router()
 
 
-router.post("/register", auth.register)
 
+router.post("/register", auth.register)
 router.post("/login", auth.login)
 
 router.get("/user", auth.getAllUser)
