@@ -19,7 +19,7 @@ app.use("/api", routes)
 // index page API
 
 app.get("/", (req, res) =>{ 
-    res.status(200).json({msg: "Welcome to Pjazz Backend"})
+    res.status(200).json({msg: "Succesful"})
 }) 
 
 app.use(express.json())   
